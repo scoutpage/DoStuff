@@ -1,0 +1,27 @@
+﻿<Window x:Name="DoStuffForm" x:Class="DoStuff.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DoStuff"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnStart" Content="DoStuff" HorizontalAlignment="Left" Height="35" Margin="10,10,0,0" VerticalAlignment="Top" Width="138" Click="btnStart_Click" FontSize="18"/>
+        <ProgressBar x:Name="progressbar" HorizontalAlignment="Left" Height="10" Margin="10,320,0,0" VerticalAlignment="Top" Width="224"/>
+        <Button x:Name="btnStop" Content="Stoooooooop" HorizontalAlignment="Left" Height="35" Margin="153,10,0,0" VerticalAlignment="Top" Width="163" Click="btnStop_Click" FontSize="18"/>
+        <ComboBox x:Name="cbbChoiceL0" HorizontalAlignment="Left" Margin="459,10,0,0" VerticalAlignment="Top" Width="157" SelectionChanged="cbbChoiceL0_SelectionChanged" Height="20"/>
+        <ComboBox x:Name="cbbChoiceL1" HorizontalAlignment="Left" Margin="459,35,0,0" VerticalAlignment="Top" Width="157" Height="20"/>
+        <TextBox x:Name="txtTempText1" HorizontalAlignment="Left" Margin="159,105,0,0" Text="Temp1" TextWrapping="Wrap" VerticalAlignment="Top" Width="392" Height="20"/>
+        <Button x:Name="btnTest" Content="Test" HorizontalAlignment="Left" Height="66" Margin="379,287,0,0" VerticalAlignment="Top" Width="245" FontSize="24" Click="btnTest_Click"/>
+        <TextBox x:Name="txtTempText2" HorizontalAlignment="Left" Margin="159,130,0,0" Text="Temp2" TextWrapping="Wrap" VerticalAlignment="Top" Width="392" Height="20"/>
+        <TextBox x:Name="txtTempText3" HorizontalAlignment="Left" Margin="159,155,0,0" Text="Temp3" TextWrapping="Wrap" VerticalAlignment="Top" Width="392" Height="20"/>
+        <Label x:Name="lblTemp1" Content="lblTemp1" HorizontalAlignment="Left" Height="20" Margin="10,105,0,0" VerticalAlignment="Top" Width="144" Padding="0,0,0,0" HorizontalContentAlignment="Right"/>
+        <Label x:Name="lblTemp2" Content="lblTemp2" HorizontalAlignment="Left" Height="20" Margin="10,130,0,0" VerticalAlignment="Top" Width="144" Padding="0,0,0,0" HorizontalContentAlignment="Right"/>
+        <Label x:Name="lblTemp3" Content="lblTemp3" HorizontalAlignment="Left" Height="20" Margin="10,155,0,0" VerticalAlignment="Top" Width="144" Padding="0,0,0,0" HorizontalContentAlignment="Right"/>
+        <Label x:Name="lblcbbL0" Content="Choice L0:" HorizontalAlignment="Left" Height="20" Margin="393,10,0,0" VerticalAlignment="Top" Width="61" Padding="0,0,0,0" HorizontalContentAlignment="Right"/>
+        <Label x:Name="lblcbbL1" Content="Choice L1:" HorizontalAlignment="Left" Height="20" Margin="393,35,0,0" VerticalAlignment="Top" Width="61" Padding="0,0,0,0" HorizontalContentAlignment="Right"/>
+        <TextBox x:Name="txtStatus" HorizontalAlignment="Center" Height="37" Margin="0,387,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="780"/>
+
+    </Grid>
+</Window>
